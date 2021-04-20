@@ -18,7 +18,7 @@ describe("GRADING TEST: ", function() {
        console.log(studentSpecs[i].passedExpectations.length)
      }
    });
-  console.log(studentSpecs[i].passedExpectations.length)
+  
    it("Responds to TA message & commands", function() {
     let rover = new Rover(100);
     let commands = [
