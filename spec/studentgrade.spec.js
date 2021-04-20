@@ -15,9 +15,10 @@ describe("GRADING TEST: ", function() {
      {
        expect(studentSpecs[i].status).toEqual("passed");
        expect(studentSpecs[i].passedExpectations.length).toBeGreaterThanOrEqual(1);
+       console.log(studentSpecs[i].passedExpectations.length)
      }
    });
-
+  console.log(studentSpecs[i].passedExpectations.length)
    it("Responds to TA message & commands", function() {
     let rover = new Rover(100);
     let commands = [
